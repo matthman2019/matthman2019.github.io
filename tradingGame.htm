@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <script src="Scripts/tradingGame.js"></script>
+        <script src="Scripts/classes.js"></script>
+        <script src="Scripts/gameData.js", type="module"></script>
+        
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                width : 100vw;
+                height : 100vh;
+                margin: 0%;
+                padding: 1%;
+            }
+
+            header {
+                background-color: peachpuff;
+                width: 100%;
+                height: 10%;
+                float :left;
+                text-align: center;
+                
+            }
+
+            section {
+                background-color: burlywood;
+                width: 80%;
+                height: 80%;
+                float: left;
+                padding: 5px;
+                text-align: left;
+            }
+
+            aside {
+                background-color: chocolate;
+                width : 20%;
+                height : 80%;
+                float : right;
+            }
+
+            footer {
+                background-color: darkgoldenrod;
+                width:100%;
+                height : 10%;
+                float:left;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header id="nameBox">
+            <h1>Name Goes Here</h2>
+        </header>
+
+        <section id="textBox">
+            <p>Hey everybody
+                 it's your favorite!</p>
+        </section>
+
+        <aside id="optionBox">
+            <form>
+                <input type="radio" id="1" name="item">
+                <label for="1">Gold</label>
+                <br>
+                <input type="radio" id="2" name="item">
+                <label for="2">Gunpowder</label>
+                <br>
+            </form>
+        </aside>
+
+        <footer id="resourceBox">
+            <p id="paragraphText">Hey everybody I'm the footer!</p>
+        </footer>
+        
+    </body>
+</html>
